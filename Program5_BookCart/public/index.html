@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Online Book Cart</h1>
+
+        <form id="bookForm">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Book Title"
+                required
+            >
+
+            <input
+                type="text"
+                id="author"
+                placeholder="Author Name"
+                required
+            >
+
+            <input
+                type="number"
+                id="price"
+                placeholder="Book Price"
+                required
+            >
+
+            <button type="submit">Add Book</button>
+
+        </form>
+
+        <h2>Available Books</h2>
+
+        <div id="bookList"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
